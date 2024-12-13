@@ -1,0 +1,29 @@
+# Query: newsmonkey
+# ContextLines: 1
+
+9 results - 4 files
+
+index.html:
+   8          name="viewport"
+   9:         content="Headline Hub is a news app which can be used to grab quick daily news bites. If you are interested in news, weather, politics and sports news, Headline Hub is for you!" 
+  10      />
+  11:     <title>Headline Hub - Get your daily dose of news for free!</title>
+  12    </head>
+
+README.md:
+  1: # Headline Hub
+  2:  Headline Hub is a news app which can be used to grab quick daily news bites. If you are interested in news, weather, politics and sports news, newsmonkey is for you!
+
+src/components/Navbar.jsx:
+  11            <div className="container-fluid">
+  12:             <Link className="navbar-brand" to="/">Headline Hub</Link>
+  13              <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+src/components/News.jsx:
+  31          }
+  32:         document.title = `${this.capitalizeFirstLetter(this.props.category)} - Headline Hub`
+  33      }
+
+  66        <div className="container my-3">
+  67:         <h1 className={`text-center text-${this.props.mode==='light'?'dark':'light'}`} style={{margin: '30px 0px', marginTop: '90px'}}>Headline Hub - Top {this.capitalizeFirstLetter(this.props.category)} Headlines</h1>
+  68          {this.state.loading && <Loading/>}
