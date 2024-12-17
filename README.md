@@ -31,31 +31,30 @@ A dynamic **news aggregator web application** built with **React** and optimized
 
 ## **How to Run the Project**  
 1. Clone the repository:  
-   ```bash
-   git clone https://github.com/yourusername/HeadlineHub.git
-```
+   
+      `git clone https://github.com/yourusername/HeadlineHub.git`
+
 
 2. Navigate to the project directory:
 
-```bash
-cd HeadlineHub```
+      `cd HeadlineHub`
 
 
 3. Install the dependencies:
 
-```bash
-npm install```
+
+      `npm install`
 
 
 4. Start the development server:
 
-```bash
-npm run dev```
+
+      `npm run dev`
 
 5. Open the app in your browser at:
 
-```bash
-http://localhost:51733```
+
+      `http://localhost:51733`
 
 
 **Future Enhancements**
